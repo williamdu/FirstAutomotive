@@ -14,5 +14,6 @@ target 'FirstAutomotive' do
   pod 'IQKeyboardManager'
   pod 'TTTAttributedLabel'
   pod 'DZNEmptyDataSet'
+  pod 'WMPageController', '~> 2.4.0'
 
 end

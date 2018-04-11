@@ -7,9 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6EDCE443207E56420083A6E6 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EDCE442207E56420083A6E6 /* Login.storyboard */; };
+		6EDCE446207E56DD0083A6E6 /* FALoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDCE445207E56DD0083A6E6 /* FALoginViewController.m */; };
+		6EDCE449207E56F40083A6E6 /* FASignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDCE448207E56F40083A6E6 /* FASignupViewController.m */; };
+		6EDCE44E207E5AE50083A6E6 /* FARootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDCE44D207E5AE50083A6E6 /* FARootViewController.m */; };
+		6EDCE451207E5BDB0083A6E6 /* FATabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDCE450207E5BDB0083A6E6 /* FATabBarController.m */; };
+		6EDCE453207E5DFF0083A6E6 /* Mine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EDCE452207E5DFF0083A6E6 /* Mine.storyboard */; };
+		6EDCE455207E5E360083A6E6 /* Car.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EDCE454207E5E360083A6E6 /* Car.storyboard */; };
+		6EDCE457207E5E470083A6E6 /* Service.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EDCE456207E5E470083A6E6 /* Service.storyboard */; };
+		6EDCE459207E5E630083A6E6 /* Find.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EDCE458207E5E630083A6E6 /* Find.storyboard */; };
+		6EDCE45B207E60DA0083A6E6 /* Information.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EDCE45A207E60DA0083A6E6 /* Information.storyboard */; };
 		C14E36678110A1BEE1DC78F8 /* libPods-FirstAutomotive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E3C8D6A0FC5B59DA3ED0D6 /* libPods-FirstAutomotive.a */; };
 		E6ED8093207E29DB0083BEFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6ED8092207E29DB0083BEFB /* AppDelegate.m */; };
-		E6ED8096207E29DB0083BEFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6ED8095207E29DB0083BEFB /* ViewController.m */; };
 		E6ED8099207E29DB0083BEFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6ED8097207E29DB0083BEFB /* Main.storyboard */; };
 		E6ED809B207E29DB0083BEFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6ED809A207E29DB0083BEFB /* Assets.xcassets */; };
 		E6ED809E207E29DB0083BEFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6ED809C207E29DB0083BEFB /* LaunchScreen.storyboard */; };
@@ -18,13 +27,25 @@
 
 /* Begin PBXFileReference section */
 		5D111E676FA3DA89274565B4 /* Pods-FirstAutomotive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstAutomotive.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirstAutomotive/Pods-FirstAutomotive.release.xcconfig"; sourceTree = "<group>"; };
+		6EDCE442207E56420083A6E6 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		6EDCE444207E56DD0083A6E6 /* FALoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FALoginViewController.h; sourceTree = "<group>"; };
+		6EDCE445207E56DD0083A6E6 /* FALoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FALoginViewController.m; sourceTree = "<group>"; };
+		6EDCE447207E56F40083A6E6 /* FASignupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FASignupViewController.h; sourceTree = "<group>"; };
+		6EDCE448207E56F40083A6E6 /* FASignupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FASignupViewController.m; sourceTree = "<group>"; };
+		6EDCE44C207E5AE50083A6E6 /* FARootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FARootViewController.h; sourceTree = "<group>"; };
+		6EDCE44D207E5AE50083A6E6 /* FARootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FARootViewController.m; sourceTree = "<group>"; };
+		6EDCE44F207E5BDB0083A6E6 /* FATabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FATabBarController.h; sourceTree = "<group>"; };
+		6EDCE450207E5BDB0083A6E6 /* FATabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FATabBarController.m; sourceTree = "<group>"; };
+		6EDCE452207E5DFF0083A6E6 /* Mine.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Mine.storyboard; sourceTree = "<group>"; };
+		6EDCE454207E5E360083A6E6 /* Car.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Car.storyboard; sourceTree = "<group>"; };
+		6EDCE456207E5E470083A6E6 /* Service.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Service.storyboard; sourceTree = "<group>"; };
+		6EDCE458207E5E630083A6E6 /* Find.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Find.storyboard; sourceTree = "<group>"; };
+		6EDCE45A207E60DA0083A6E6 /* Information.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Information.storyboard; sourceTree = "<group>"; };
 		D53E534CCC1ED9657EF0FC67 /* Pods-FirstAutomotive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstAutomotive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirstAutomotive/Pods-FirstAutomotive.debug.xcconfig"; sourceTree = "<group>"; };
 		D9E3C8D6A0FC5B59DA3ED0D6 /* libPods-FirstAutomotive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FirstAutomotive.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6ED808E207E29DB0083BEFB /* FirstAutomotive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstAutomotive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6ED8091207E29DB0083BEFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E6ED8092207E29DB0083BEFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E6ED8094207E29DB0083BEFB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E6ED8095207E29DB0083BEFB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E6ED8098207E29DB0083BEFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E6ED809A207E29DB0083BEFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6ED809D207E29DB0083BEFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -62,6 +83,55 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6EDCE440207E555B0083A6E6 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6EDCE444207E56DD0083A6E6 /* FALoginViewController.h */,
+				6EDCE445207E56DD0083A6E6 /* FALoginViewController.m */,
+				6EDCE447207E56F40083A6E6 /* FASignupViewController.h */,
+				6EDCE448207E56F40083A6E6 /* FASignupViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		6EDCE441207E55C50083A6E6 /* User */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		6EDCE44A207E5A620083A6E6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E6ED8091207E29DB0083BEFB /* AppDelegate.h */,
+				E6ED8092207E29DB0083BEFB /* AppDelegate.m */,
+				E6ED809F207E29DB0083BEFB /* Info.plist */,
+				E6ED80A0207E29DC0083BEFB /* main.m */,
+				6EDCE44C207E5AE50083A6E6 /* FARootViewController.h */,
+				6EDCE44D207E5AE50083A6E6 /* FARootViewController.m */,
+				6EDCE44F207E5BDB0083A6E6 /* FATabBarController.h */,
+				6EDCE450207E5BDB0083A6E6 /* FATabBarController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		6EDCE44B207E5A950083A6E6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6EDCE442207E56420083A6E6 /* Login.storyboard */,
+				E6ED8097207E29DB0083BEFB /* Main.storyboard */,
+				E6ED809A207E29DB0083BEFB /* Assets.xcassets */,
+				E6ED809C207E29DB0083BEFB /* LaunchScreen.storyboard */,
+				6EDCE452207E5DFF0083A6E6 /* Mine.storyboard */,
+				6EDCE454207E5E360083A6E6 /* Car.storyboard */,
+				6EDCE456207E5E470083A6E6 /* Service.storyboard */,
+				6EDCE458207E5E630083A6E6 /* Find.storyboard */,
+				6EDCE45A207E60DA0083A6E6 /* Information.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		E6ED8085207E29DB0083BEFB = {
 			isa = PBXGroup;
 			children = (
@@ -83,16 +153,11 @@
 		E6ED8090207E29DB0083BEFB /* FirstAutomotive */ = {
 			isa = PBXGroup;
 			children = (
+				6EDCE44A207E5A620083A6E6 /* Main */,
+				6EDCE44B207E5A950083A6E6 /* Resource */,
+				6EDCE441207E55C50083A6E6 /* User */,
+				6EDCE440207E555B0083A6E6 /* Login */,
 				E6ED80A7207E33570083BEFB /* debug.h */,
-				E6ED8091207E29DB0083BEFB /* AppDelegate.h */,
-				E6ED8092207E29DB0083BEFB /* AppDelegate.m */,
-				E6ED8094207E29DB0083BEFB /* ViewController.h */,
-				E6ED8095207E29DB0083BEFB /* ViewController.m */,
-				E6ED8097207E29DB0083BEFB /* Main.storyboard */,
-				E6ED809A207E29DB0083BEFB /* Assets.xcassets */,
-				E6ED809C207E29DB0083BEFB /* LaunchScreen.storyboard */,
-				E6ED809F207E29DB0083BEFB /* Info.plist */,
-				E6ED80A0207E29DC0083BEFB /* main.m */,
 			);
 			path = FirstAutomotive;
 			sourceTree = "<group>";
@@ -158,9 +223,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EDCE443207E56420083A6E6 /* Login.storyboard in Resources */,
 				E6ED809E207E29DB0083BEFB /* LaunchScreen.storyboard in Resources */,
+				6EDCE453207E5DFF0083A6E6 /* Mine.storyboard in Resources */,
+				6EDCE455207E5E360083A6E6 /* Car.storyboard in Resources */,
+				6EDCE45B207E60DA0083A6E6 /* Information.storyboard in Resources */,
 				E6ED809B207E29DB0083BEFB /* Assets.xcassets in Resources */,
 				E6ED8099207E29DB0083BEFB /* Main.storyboard in Resources */,
+				6EDCE457207E5E470083A6E6 /* Service.storyboard in Resources */,
+				6EDCE459207E5E630083A6E6 /* Find.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,9 +298,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6ED8096207E29DB0083BEFB /* ViewController.m in Sources */,
+				6EDCE446207E56DD0083A6E6 /* FALoginViewController.m in Sources */,
 				E6ED80A1207E29DC0083BEFB /* main.m in Sources */,
+				6EDCE451207E5BDB0083A6E6 /* FATabBarController.m in Sources */,
 				E6ED8093207E29DB0083BEFB /* AppDelegate.m in Sources */,
+				6EDCE44E207E5AE50083A6E6 /* FARootViewController.m in Sources */,
+				6EDCE449207E56F40083A6E6 /* FASignupViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +440,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = FirstAutomotive/Info.plist;
+				INFOPLIST_FILE = FirstAutomotive/Main/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yiqin.FirstAutomotive;
@@ -383,7 +457,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = FirstAutomotive/Info.plist;
+				INFOPLIST_FILE = FirstAutomotive/Main/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yiqin.FirstAutomotive;
